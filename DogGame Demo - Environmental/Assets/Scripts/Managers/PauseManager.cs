@@ -11,6 +11,12 @@ using TMPro;
 
 public class PauseManager : MonoBehaviour
 {
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     public TextMeshProUGUI Text;
     public GameObject pauseButton;
     public GameObject pauseMenu;

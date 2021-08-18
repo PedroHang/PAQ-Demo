@@ -6,11 +6,17 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager instance;   
+
+    public static ScoreManager instance;
+    
+
     public TextMeshProUGUI text;
     public static int score; 
 
-    
+     void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
     void Start()
     {
         if(instance == null){

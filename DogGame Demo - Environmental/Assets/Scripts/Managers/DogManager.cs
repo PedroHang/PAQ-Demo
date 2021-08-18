@@ -9,6 +9,11 @@ public class DogManager : MonoBehaviour
     public static DogManager instance;   
     public TextMeshProUGUI DogCount;
     public static int dogScore; 
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
     
     void Start()
     {
