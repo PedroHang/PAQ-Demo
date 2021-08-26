@@ -15,11 +15,11 @@ C:/Users/hangp/Documents/GitHub/PAQ-Demo/DogGame Demo - Environmental
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58042
+55950
 Successfully changed project path to: C:/Users/hangp/Documents/GitHub/PAQ-Demo/DogGame Demo - Environmental
 C:/Users/hangp/Documents/GitHub/PAQ-Demo/DogGame Demo - Environmental
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -30,88 +30,504 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
     Vendor:   
     VRAM:     8031 MB
-    Driver:   27.21.14.5167
+    Driver:   30.0.14.7141
 Initialize mono
 Mono path[0] = 'C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002556 seconds.
+Registered in 0.001893 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.659 seconds
+- Completed reload, in  1.654 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001242 seconds.
+Registered in 0.001125 seconds.
 Begin MonoManager ReloadAssembly
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.499 seconds
+- Completed reload, in  1.497 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1745 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 103.7 MB.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 103.9 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2208.
-Total: 2.935900 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.187700 ms  DeleteObjects: 0.381900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Managers/AudioManager.cs
-  artifactKey: Guid(4bd9caca386beaf4bbf82f89bc6c5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/AudioManager.cs using Guid(4bd9caca386beaf4bbf82f89bc6c5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf224c60729ff8c63c10831d38a5d68a') in 0.071527 seconds
-  Import took 0.074009 seconds .
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2214.
+Total: 2.360900 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.172800 ms MarkObjects: 1.499600 ms  DeleteObjects: 0.373400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Scripts/Managers/DogManager.cs
-  artifactKey: Guid(efe259a8ae4442b4cb9350a1b1011d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/DogManager.cs using Guid(efe259a8ae4442b4cb9350a1b1011d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac6fb55efc3a73142d5ac959b9dc1bc') in 0.010140 seconds
-  Import took 0.012990 seconds .
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveBarking.FBX
+  artifactKey: Guid(50df79cc56830f743a0853d6636d5980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveBarking.FBX using Guid(50df79cc56830f743a0853d6636d5980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4324457d841ea6fbf7d23a93d01a6c0b') in 0.078445 seconds
+  Import took 0.081676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7327.391326 seconds.
-  path: Assets/Scripts/Managers/PauseManager.cs
-  artifactKey: Guid(aec759a2b551cb94eaa3a37894d5aad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/PauseManager.cs using Guid(aec759a2b551cb94eaa3a37894d5aad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a4af6be2bd3bbc0c2ad2429d278bb9') in 0.010253 seconds
-  Import took 0.054409 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleBarking.FBX
+  artifactKey: Guid(bc60552c4fa3e04439263a5acd22654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleBarking.FBX using Guid(bc60552c4fa3e04439263a5acd22654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea8a207a676c668f531f73045c4c46d') in 0.010504 seconds
+  Import took 0.013522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.588435 seconds.
-  path: Assets/Scripts/Managers/ScoreManager.cs
-  artifactKey: Guid(db265b32f5d0e9a45b7efe1cac447684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Managers/ScoreManager.cs using Guid(db265b32f5d0e9a45b7efe1cac447684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77621965189c3b719cfda9efdd4ac8dd') in 0.007861 seconds
-  Import took 0.010701 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleBarkingLong.FBX
+  artifactKey: Guid(9f93518d30f330641b4549f3e26fe966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleBarkingLong.FBX using Guid(9f93518d30f330641b4549f3e26fe966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169d52e743b45dfd8eed96e80af2ab9a') in 0.011501 seconds
+  Import took 0.015982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/DogPack/Beagle/Materials/Beagle.mat
+  artifactKey: Guid(1d79e3e2d49986245b9990944d80a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/Beagle.mat using Guid(1d79e3e2d49986245b9990944d80a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7ffb68aa841ad3248410a7e2f3f161') in 0.101600 seconds
+  Import took 0.104658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleSitToIdle.FBX
+  artifactKey: Guid(c0afaf943ab7a4a498573e457d41c619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleSitToIdle.FBX using Guid(c0afaf943ab7a4a498573e457d41c619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d733d3af8c996625ebc8c51364a8744') in 0.008201 seconds
+  Import took 0.011662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/DogPack/Beagle/Materials/textures/BeagleExample4.png
+  artifactKey: Guid(f55677a9bcb675741afceeab8d8d50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/textures/BeagleExample4.png using Guid(f55677a9bcb675741afceeab8d8d50d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146563cabbdcfb814f3ccfee8a81709e') in 0.087528 seconds
+  Import took 0.090559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleDig.FBX
+  artifactKey: Guid(3f45799f109b1094892a20a943aa1ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleDig.FBX using Guid(3f45799f109b1094892a20a943aa1ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3879181d3e9463829db2a5bdc842d2') in 0.008306 seconds
+  Import took 0.011084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleToAggressive.FBX
+  artifactKey: Guid(6ec152caf36b48b489dacccc3bdd8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleToAggressive.FBX using Guid(6ec152caf36b48b489dacccc3bdd8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ff71a183e938784934263d9a7d817c') in 0.009853 seconds
+  Import took 0.014875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveAttack.FBX
+  artifactKey: Guid(ccd8507fd60d1f54faa729d42ea83a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveAttack.FBX using Guid(ccd8507fd60d1f54faa729d42ea83a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7877b3267e0804e205345888c8cf37e') in 0.010590 seconds
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/DogPack/Beagle/Materials/textures/BeagleExample2.png
+  artifactKey: Guid(03fde3f2f806cea48b32766eb3a71fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/textures/BeagleExample2.png using Guid(03fde3f2f806cea48b32766eb3a71fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b6288a3709ca77e49119c9f344dbd4') in 0.070293 seconds
+  Import took 0.073397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/DogPack/Beagle/Materials/BeagleExample2.mat
+  artifactKey: Guid(91917c6483f869648851674c84ec8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/BeagleExample2.mat using Guid(91917c6483f869648851674c84ec8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a9c90956012d3e0df48d09b1c45a5e') in 0.061245 seconds
+  Import took 0.064063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleSitScratch.FBX
+  artifactKey: Guid(fae48eedf09592446a177c67b9462e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleSitScratch.FBX using Guid(fae48eedf09592446a177c67b9462e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b64250f3797afbf22b5110f0d4bf27f') in 0.010999 seconds
+  Import took 0.014095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleDeath.FBX
+  artifactKey: Guid(74117968ec328984a949306783e76222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleDeath.FBX using Guid(74117968ec328984a949306783e76222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff35eba1822863aa90d90dd02c74d8') in 0.012089 seconds
+  Import took 0.015114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveAttack2.FBX
+  artifactKey: Guid(7ffa69aeb54a044458eba1e5718c2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveAttack2.FBX using Guid(7ffa69aeb54a044458eba1e5718c2de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26bc9a9f39aad530cd83b3fc7821ed') in 0.011516 seconds
+  Import took 0.016057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleLayIdleLong.FBX
+  artifactKey: Guid(19afcaca7c9c59544b5be3b44ad20ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleLayIdleLong.FBX using Guid(19afcaca7c9c59544b5be3b44ad20ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed51c94f9408d22a32b1b5a8bf28f33c') in 0.010517 seconds
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleWalkSniff.FBX
+  artifactKey: Guid(7f6332bd3d712634a922a3a40407d33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleWalkSniff.FBX using Guid(7f6332bd3d712634a922a3a40407d33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059734f78969663b5a7dc00a12235cf') in 0.010570 seconds
+  Import took 0.014794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleToConsume.FBX
+  artifactKey: Guid(2b0260715c3363540998bbcd0a9eb05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleToConsume.FBX using Guid(2b0260715c3363540998bbcd0a9eb05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568e9c8a2ae501807bf05a2a469c414f') in 0.011645 seconds
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/DogPack/Beagle/Materials/BeagleExample4.mat
+  artifactKey: Guid(3a89856bcc651f44db1504fa8cdd928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/BeagleExample4.mat using Guid(3a89856bcc651f44db1504fa8cdd928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c8b0aa41e9ea21d9f16a56501c66d3') in 0.067360 seconds
+  Import took 0.070852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleSitIdle.FBX
+  artifactKey: Guid(6899483867d28fe44baf14eef54505ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleSitIdle.FBX using Guid(6899483867d28fe44baf14eef54505ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa85bb14e1228c274787cad3f647e71f') in 0.008998 seconds
+  Import took 0.012377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/DogPack/Beagle/Materials/textures/BeagleExample3.png
+  artifactKey: Guid(1a115a0731354f34286874e54b954e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/textures/BeagleExample3.png using Guid(1a115a0731354f34286874e54b954e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8598038530e4b97381cb490c07f282d3') in 0.062259 seconds
+  Import took 0.065412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit3.FBX
+  artifactKey: Guid(7c0c2c076b62b944485995016df1b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit3.FBX using Guid(7c0c2c076b62b944485995016df1b41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6fc660cda90e171fbdf9adfe82a4a6') in 0.009622 seconds
+  Import took 0.012879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleDrink.FBX
+  artifactKey: Guid(b317850353de3954e85b4bbfb9e14391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleDrink.FBX using Guid(b317850353de3954e85b4bbfb9e14391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db26cbd0425110a4affd0c79a314809') in 0.010067 seconds
+  Import took 0.014417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleMouthClosed.FBX
+  artifactKey: Guid(e830d02734c99bf4c9ca02d1b3d29784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleMouthClosed.FBX using Guid(e830d02734c99bf4c9ca02d1b3d29784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615c1c8e2029ab135cb49545956d3ba') in 0.011565 seconds
+  Import took 0.015977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleGallop.FBX
+  artifactKey: Guid(bffbd1498c2ce5b4d96ef2c8f8a4cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleGallop.FBX using Guid(bffbd1498c2ce5b4d96ef2c8f8a4cb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f9fe82147fff5d8bee359423d023e2') in 0.011879 seconds
+  Import took 0.014912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleLayIdle.FBX
+  artifactKey: Guid(0c73902cb925d0f4980f42ddb3b09891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleLayIdle.FBX using Guid(0c73902cb925d0f4980f42ddb3b09891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f3ac03bc2b9d39032556b35a41c09a') in 0.010292 seconds
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/DogPack/Beagle/Materials/textures/BeagleExample1.png
+  artifactKey: Guid(f97be46e33126b842bb43d836d360a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/textures/BeagleExample1.png using Guid(f97be46e33126b842bb43d836d360a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dc57497f2f6c1c13b53ac0fcc78ab3') in 0.033809 seconds
+  Import took 0.037215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveToIdle.FBX
+  artifactKey: Guid(5b4b846d82e73c149840e76729ee6686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveToIdle.FBX using Guid(5b4b846d82e73c149840e76729ee6686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd74e6008cce348b968ee0351442f38') in 0.010771 seconds
+  Import took 0.014602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleTrot.FBX
+  artifactKey: Guid(a09b32fc513e2324990d57ad94205cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleTrot.FBX using Guid(a09b32fc513e2324990d57ad94205cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c494105cf794b919b8cbc4fb474352') in 0.010374 seconds
+  Import took 0.013973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdle.FBX
+  artifactKey: Guid(1a29fe30953f7334c8e517065bf4a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdle.FBX using Guid(1a29fe30953f7334c8e517065bf4a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f648f89a2087519aa06f56abe1fc67f') in 0.011612 seconds
+  Import took 0.015087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleLayToSit.FBX
+  artifactKey: Guid(2ce9f51fd5ccafd499aa582c082a864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleLayToSit.FBX using Guid(2ce9f51fd5ccafd499aa582c082a864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becc630b3ae0406a5d25cedbd7a251e7') in 0.011257 seconds
+  Import took 0.015789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveIdle.FBX
+  artifactKey: Guid(93b068002ded3b14fa8773a944320f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveIdle.FBX using Guid(93b068002ded3b14fa8773a944320f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f353e55d7624ed91a5f3571d8452eac7') in 0.010258 seconds
+  Import took 0.014258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleSniff.FBX
+  artifactKey: Guid(05cde1eba8ec59f4d93dcd02fe966fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleSniff.FBX using Guid(05cde1eba8ec59f4d93dcd02fe966fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db666253bcae30a7e90d1b7bddcb5f8') in 0.010838 seconds
+  Import took 0.013997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleToSit.FBX
+  artifactKey: Guid(4cc037afae0a1654093030baf006de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleToSit.FBX using Guid(4cc037afae0a1654093030baf006de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cc9aaef4d7c270fd094fc2b9b2b625') in 0.010980 seconds
+  Import took 0.014179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeaglePiss.FBX
+  artifactKey: Guid(ebf3c43fd807d8b4897c4f3268e46609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeaglePiss.FBX using Guid(ebf3c43fd807d8b4897c4f3268e46609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624ee7382c67658382da332dbf363031') in 0.010782 seconds
+  Import took 0.014068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleSitToLay.FBX
+  artifactKey: Guid(e8b7309b6aa2ea44ea860de0d91bf7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleSitToLay.FBX using Guid(e8b7309b6aa2ea44ea860de0d91bf7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f76b0607cbe348cbca4639ab4f3477') in 0.011270 seconds
+  Import took 0.014268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleConsumeToIdle.FBX
+  artifactKey: Guid(cd4155765f00785468e0560ba47bcac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleConsumeToIdle.FBX using Guid(cd4155765f00785468e0560ba47bcac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf7c093ce6202f1813796509432d00') in 0.010555 seconds
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleWalk.FBX
+  artifactKey: Guid(24f20d08bdaa96b45ba07921c168c6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleWalk.FBX using Guid(24f20d08bdaa96b45ba07921c168c6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effe8cbfd8dce924ba234b58777bd81c') in 0.010047 seconds
+  Import took 0.013914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleToLay.FBX
+  artifactKey: Guid(a244a85475ea7bb4fa8cfe9616dfcd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleToLay.FBX using Guid(a244a85475ea7bb4fa8cfe9616dfcd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5cfd23d690264d0d85b2781907cfae') in 0.010704 seconds
+  Import took 0.015387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleLayToIdle.FBX
+  artifactKey: Guid(f689ce343ea57f74a96e30d99c86f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleLayToIdle.FBX using Guid(f689ce343ea57f74a96e30d99c86f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb03dbdc27a4f76cd770b14b461732d7') in 0.011485 seconds
+  Import took 0.015349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleEat.FBX
+  artifactKey: Guid(cc8782045af722a469daecdca58143e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleEat.FBX using Guid(cc8782045af722a469daecdca58143e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7695d4d9d464f5b29099f4ae1c9a9fa3') in 0.012976 seconds
+  Import took 0.016365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleRun.FBX
+  artifactKey: Guid(859a14b9f8c05b24181a3d20c3c7391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleRun.FBX using Guid(859a14b9f8c05b24181a3d20c3c7391c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e9b7d0f31308ceaa8a627147fc61ef') in 0.011733 seconds
+  Import took 0.016589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/DogPack/Beagle/Beagle.FBX
+  artifactKey: Guid(f5974119fa5893644b1aedc0b6fee3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle.FBX using Guid(f5974119fa5893644b1aedc0b6fee3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f91ab0173b5a5ee3a5154cb5982ff') in 0.075321 seconds
+  Import took 0.078614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit.FBX
+  artifactKey: Guid(e72eefbcf63b6474a865c7687adc37f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit.FBX using Guid(e72eefbcf63b6474a865c7687adc37f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d751b99bdae87d3e9f40e8ec4a54d6d') in 0.008481 seconds
+  Import took 0.011129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit2.FBX
+  artifactKey: Guid(e7fb69c07b8762b4088dbdffd4f75a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleAggressiveBeingHit2.FBX using Guid(e7fb69c07b8762b4088dbdffd4f75a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc839cc86735ed7cfff2ded18519a9aa') in 0.011619 seconds
+  Import took 0.015577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleLayRest.FBX
+  artifactKey: Guid(ec73e7b2edb282947b7064b25d30f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleLayRest.FBX using Guid(ec73e7b2edb282947b7064b25d30f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b0a09c024b5d54c6894db12de68fda') in 0.010303 seconds
+  Import took 0.013194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleIdleLong.FBX
+  artifactKey: Guid(4661817f4bec1bf489884436191b7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleIdleLong.FBX using Guid(4661817f4bec1bf489884436191b7413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc1e9c007b919d8c744734478f61e1f') in 0.012912 seconds
+  Import took 0.017191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeaglePoop.FBX
+  artifactKey: Guid(b12c60f8d8cb27a4ca78cefcc53f2d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeaglePoop.FBX using Guid(b12c60f8d8cb27a4ca78cefcc53f2d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec6667e7e4800d3e2c2038e8608e9b0') in 0.012933 seconds
+  Import took 0.017156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleSitIdleLong.FBX
+  artifactKey: Guid(2f2ecc2329fdc834d853a71ec94d6a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleSitIdleLong.FBX using Guid(2f2ecc2329fdc834d853a71ec94d6a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11de4a4832966f301c4675fb9f5d6c5a') in 0.012171 seconds
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/DogPack/Beagle/Materials/BeagleExample3.mat
+  artifactKey: Guid(7f4d5cd1232473d44abbc91599b9e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Materials/BeagleExample3.mat using Guid(7f4d5cd1232473d44abbc91599b9e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6894958526e0b97e28fb01e6423d444f') in 0.068136 seconds
+  Import took 0.071828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleWipeAss.FBX
+  artifactKey: Guid(37b46202b50591d4080f63d0e516ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleWipeAss.FBX using Guid(37b46202b50591d4080f63d0e516ea58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8ae7fd90dc7f95f9322b6ffa37915e') in 0.008319 seconds
+  Import took 0.011200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/DogPack/Beagle/Beagle@BeagleJump.FBX
+  artifactKey: Guid(e373d3ae6573d054c8e14e7607052201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle/Beagle@BeagleJump.FBX using Guid(e373d3ae6573d054c8e14e7607052201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8553eedbdb2b17d8b30927fe383be29') in 0.009645 seconds
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.140852 seconds.
+  path: Assets/DogPack/Beagle
+  artifactKey: Guid(e38627bc0ac67934aa5bad4493b7d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle using Guid(e38627bc0ac67934aa5bad4493b7d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b863220f3e4d05d766621ee2645840') in 0.002435 seconds
+  Import took 0.005747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005636 seconds.
+  path: Assets/DogPack/Beagle
+  artifactKey: Guid(e38627bc0ac67934aa5bad4493b7d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Beagle using Guid(e38627bc0ac67934aa5bad4493b7d25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b863220f3e4d05d766621ee2645840') in 0.002368 seconds
+  Import took 0.005547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.393678 seconds.
+  path: Assets/DogPack/Examples/Controllers/Beagle.controller
+  artifactKey: Guid(d4c0e0d28a6ef2441ab294b3eef098bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Examples/Controllers/Beagle.controller using Guid(d4c0e0d28a6ef2441ab294b3eef098bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606e816d11e7162c2a6eaeb899bd2cb7') in 0.046266 seconds
+  Import took 0.051196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.635194 seconds.
+  path: Assets/DogPack/Examples/Controllers/Corgi.controller
+  artifactKey: Guid(c9d49617176d1f74690c22ba55498c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Examples/Controllers/Corgi.controller using Guid(c9d49617176d1f74690c22ba55498c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032237baf726426cad265d604b953189') in 0.041101 seconds
+  Import took 0.046130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540386 seconds.
+  path: Assets/DogPack/Examples/Controllers/Frenchie.controller
+  artifactKey: Guid(abcb9ab64d9166d4383a707daf21ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DogPack/Examples/Controllers/Frenchie.controller using Guid(abcb9ab64d9166d4383a707daf21ba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb57df6863fea09bab8e8b7ab337bd3') in 0.041375 seconds
+  Import took 0.045973 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001296 seconds.
+Registered in 0.001148 seconds.
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
@@ -122,30 +538,98 @@ This message parameter has to be of type: Collision
 The message will be ignored.
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
+- Completed reload, in  1.085 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.2 MB.
-System memory in use after: 98.1 MB.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2210.
-Total: 2.893700 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.274000 ms  DeleteObjects: 0.214800 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 2.155700 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.737000 ms  DeleteObjects: 0.164900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001338 seconds.
+Registered in 0.001112 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.975400 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.469400 ms  DeleteObjects: 0.157900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 1.793200 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.377900 ms  DeleteObjects: 0.133300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
@@ -162,24 +646,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  1.026 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.2 MB.
-System memory in use after: 98.2 MB.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2212.
-Total: 2.280900 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.784800 ms  DeleteObjects: 0.174700 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 3.266800 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.521400 ms  DeleteObjects: 0.231700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001219 seconds.
+Registered in 0.001096 seconds.
 Script error: OnCollisionEnter
 This message parameter has to be of type: Collision
 The message will be ignored.
@@ -190,24 +674,261 @@ This message parameter has to be of type: Collision
 The message will be ignored.
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
+- Completed reload, in  1.056 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.2 MB.
-System memory in use after: 98.2 MB.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 2.377000 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.085600 ms MarkObjects: 1.839600 ms  DeleteObjects: 0.175200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 3.696800 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.135900 ms MarkObjects: 3.002200 ms  DeleteObjects: 0.219400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001181 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 2.103300 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.647000 ms  DeleteObjects: 0.138200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001128 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 1.941100 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.073300 ms MarkObjects: 1.453200 ms  DeleteObjects: 0.205500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001426 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 1.897300 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.492900 ms  DeleteObjects: 0.152400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001352 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 1.840000 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.399400 ms  DeleteObjects: 0.147000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 2.198700 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.635900 ms  DeleteObjects: 0.149700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 1.842300 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.471500 ms  DeleteObjects: 0.137600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001484 seconds.
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Begin MonoManager ReloadAssembly
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.895900 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.473400 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
