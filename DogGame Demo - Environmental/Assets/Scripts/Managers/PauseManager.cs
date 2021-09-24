@@ -14,7 +14,6 @@ public class PauseManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this);
     }
 
     public TextMeshProUGUI Text;

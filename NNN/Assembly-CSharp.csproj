@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\movement.cs" />
+     <Compile Include="Assets\Scripts\WayPoints.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Users/hangp/Documents/UnityEditor/2020.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -664,6 +664,12 @@
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
         <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
@@ -690,12 +696,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>C:/Users/hangp/Documents/GitHub/PAQ-Demo/NNN/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

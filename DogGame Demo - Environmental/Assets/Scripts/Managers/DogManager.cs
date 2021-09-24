@@ -12,7 +12,6 @@ public class DogManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(this);
     }
     
     void Start()

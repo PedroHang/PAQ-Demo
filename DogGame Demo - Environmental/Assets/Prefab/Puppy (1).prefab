@@ -1458,7 +1458,17 @@ MonoBehaviour:
   onGround: 0
   speed: 8.5
   MAX_JUMP: 1
+  currentJump: 0
+  isInArea: 0
+  repulsionOrb: 0
+  doubleJump: 0
+  boosted: 0
   textPowerUp: {fileID: 0}
+  gameMenu: {fileID: 0}
+  powerUpButton: {fileID: 0}
+  BarkProjectile: {fileID: 0}
+  SuperpositionDog: {fileID: 0}
+  JumpHeight: 0
 --- !u!64 &7763092800332608598
 MeshCollider:
   m_ObjectHideFlags: 0
