@@ -16,6 +16,8 @@ TagManager:
   - StopFlying
   - Wall
   - DJorb
+  - Water
+  - InvisShroom
   layers:
   - Default
   - TransparentFX

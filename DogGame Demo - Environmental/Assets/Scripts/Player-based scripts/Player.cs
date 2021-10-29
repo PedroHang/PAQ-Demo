@@ -25,6 +25,9 @@ public class Player : MonoBehaviour
     public GameObject BarkProjectile;
     public GameObject SuperpositionDog;
     public float JumpHeight;
+    public float Thrust = 20f;
+    public GameObject speedUpImage;
+    public GameObject InvisibleUI;
  
     Animator animator;
 
@@ -95,16 +98,45 @@ public class Player : MonoBehaviour
     }
 
     void KeyboardControl(){
-        if(Input.GetKey(KeyCode.A)){
-            transform.position += Vector3.left * speed * Time.deltaTime;
+        if(Input.GetKeyDown(KeyCode.LeftArrow)){
+            if (this.gameObject.transform.position.x > LevelLimits.leftSide)
+            {
+                transform.position += Vector3.left * Thrust * Time.deltaTime;
+            }
         }
 
-        if(Input.GetKey(KeyCode.D)){
-            transform.position += Vector3.right * speed * Time.deltaTime;
+        if(Input.GetKeyDown(KeyCode.RightArrow)){
+            if (this.gameObject.transform.position.x < LevelLimits.rightSide)
+            {
+                transform.position += Vector3.right * Thrust * Time.deltaTime;
+            }
         }
 
         if(Input.GetKey(KeyCode.E)){
             displayMenu();
+        }
+
+        if(Input.GetKey(KeyCode.A)){
+            if (this.gameObject.transform.position.x > LevelLimits.leftSide)
+            {
+               transform.position += Vector3.left * speed * Time.deltaTime; 
+            }
+            
+        }
+
+        if(Input.GetKey(KeyCode.D)){
+            if (this.gameObject.transform.position.x < LevelLimits.rightSide)
+            {
+               transform.position += Vector3.right * speed * Time.deltaTime; 
+            }
+            
+        }
+
+        if(Input.GetKey(KeyCode.S)){
+            animator.SetBool("isOnSneak", true);
+        }
+        else{
+            animator.SetBool("isOnSneak", false);
         }
     }
 
@@ -174,11 +206,19 @@ public class Player : MonoBehaviour
     IEnumerator waitSeconds2(){
         yield return new WaitForSeconds(2);          // BOOST FOR 2 SECONDS
         speed = 7f;
+        animator.speed = 1.2f;
+        speedUpImage.gameObject.SetActive(false);
     }
 
     IEnumerator waitSeconds3(){
         yield return new WaitForSeconds(3);          // BOOST FOR 3 SECONDS
         speed = 7f;
+    }
+
+    IEnumerator waitSeconds6(){
+        yield return new WaitForSeconds(6);          // MAKE INVISIBLE FALSE
+        this.GetComponentInChildren<SkinnedMeshRenderer>().enabled = true;
+        InvisibleUI.gameObject.SetActive(false);
     }
 
 
@@ -193,6 +233,8 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             FindObjectOfType<AudioManager>().Play("BoostCoin");
             speed = 10f;
+            animator.speed = 2;
+            speedUpImage.gameObject.SetActive(true);
             StartCoroutine(waitSeconds2());
 
         }
@@ -202,6 +244,21 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             FindObjectOfType<AudioManager>().Play("BoostCoin");
         }
+
+        if(other.gameObject.CompareTag("Water")){
+            speed = 3f;
+            onGround = true;
+            animator.speed = 0.8f;
+        }
+
+        if(other.gameObject.CompareTag("InvisShroom")){
+            Destroy(other.gameObject);
+            this.GetComponentInChildren<SkinnedMeshRenderer>().enabled = false;
+            InvisibleUI.gameObject.SetActive(true);
+            StartCoroutine(waitSeconds6());
+        }
+
+
     }
 
     // Power-ups --------------------------------------

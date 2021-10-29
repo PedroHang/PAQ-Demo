@@ -23,7 +23,7 @@ public class WindPull : MonoBehaviour
     {
         if (isInArea == true)
         {
-            Player.transform.position += Vector3.left * speed * Time.deltaTime;
+            Player.transform.position += Vector3.right * speed * Time.deltaTime;
         }
     }
 
